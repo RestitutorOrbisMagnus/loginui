@@ -85,6 +85,13 @@ useEffect(() => {
   };
 
   return (
+    <div className="flex flex-col justify-center h-full"> 
+    <h1 className="text-2xl font-semibold mb-4 flex items-center gap-2">
+        <span className="w-10 h-10 rounded-full bg-pink-500 text-white flex items-center justify-center font-bold">
+         C
+        </span>
+        Create an account
+    </h1>
     <form onSubmit={handleSubmit} className="space-y-5">
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
@@ -145,5 +152,6 @@ useEffect(() => {
         Create an account
       </button>
     </form>
+    </div>
   );
 }
